@@ -19,11 +19,10 @@ RUN pip install --requirement /tmp/requirements.txt && \
     fix-permissions $CONDA_DIR && \
     fix-permissions /home/$NB_USER
 
-# switch back to jovyan to avoid accidental container runs as root
-USER $NB_UID
-
 # copy files and set permissions
 COPY . /home/jovyan/work/
-#RUN chmod +x /home/jovyan/work/notebooks
+RUN chmod 777 /home/jovyan/work/*
 
+# switch back to jovyan to avoid accidental container runs as root
+USER $NB_UID
 WORKDIR /home/jovyan/work
