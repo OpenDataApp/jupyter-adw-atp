@@ -25,4 +25,4 @@ RUN chmod 777 /home/jovyan/work/*
 
 # switch back to jovyan to avoid accidental container runs as root
 USER $NB_UID
-WORKDIR /home/jovyan/work
+WORKDIR /home/jovyan/work/notebooks
