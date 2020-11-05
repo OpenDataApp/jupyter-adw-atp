@@ -35,3 +35,4 @@ docker push us-ashburn-1.ocir.io/idmivk6wh2wj/orion/jupyter-adw-atp
 - [Docker for Data Science — A Step by Step Guide](https://godatadriven.com/blog/write-less-terrible-code-with-jupyter-notebook/)
 - [How to Put Jupyter Notebooks in a Dockerfile](https://u.group/thinking/how-to-put-jupyter-notebooks-in-a-dockerfile/)
 - [Write less terrible code with Jupyter Notebook](https://godatadriven.com/blog/write-less-terrible-code-with-jupyter-notebook/)
+- [Pull an Image from Oracle Cloud Infrastructure Registry when Deploying a Load-Balanced Application to a Cluster](https://www.oracle.com/webfolder/technetwork/tutorials/obe/oci/oke-and-registry/index.html#CreateaSecretfortheTutorial)
