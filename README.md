@@ -12,6 +12,16 @@ In command line you can put follow command:
 docker run --rm -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes pavelsjo/jupyter-adw-atp:1.0
 ```
 
+# How to Oracle Registry?
+
+Example using windows environment:
+
+```docker
+winpty docker login us-ashburn-1.ocir.io
+oracleidentitycloudservice/you.user@domain.com
+<your_pasword> #Auth token
+```
+
 ## Temp references
 
 - [ipython-sql](https://github.com/catherinedevlin/ipython-sql)
