@@ -17,9 +17,14 @@ docker run --rm -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes pavelsjo/jupyter-adw-atp:
 Example using windows environment:
 
 ```docker
+#AUTENTICATION
 winpty docker login us-ashburn-1.ocir.io
 oracleidentitycloudservice/you.user@domain.com
 <your_pasword> #Auth token
+
+#PUSH
+docker tag pavelsjo/jupyter-adw-atp:1.0 us-ashburn-1.ocir.io/idmivk6wh2wj/orion/jupyter-adw-atp:latest
+docker push us-ashburn-1.ocir.io/idmivk6wh2wj/orion/jupyter-adw-atp
 ```
 
 ## Temp references
